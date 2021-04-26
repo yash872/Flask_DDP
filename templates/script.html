@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    
+
+<h2 class="mb-4">Sidebar #01</h2>
+{% for content in console_gave %} 
+	<p> {{content}} </p> 
+{% endfor %}
+</div>
+
+{% endblock %}
+
